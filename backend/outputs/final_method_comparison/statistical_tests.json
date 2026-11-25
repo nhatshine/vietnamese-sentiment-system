@@ -1,0 +1,35 @@
+{
+  "mcnemar": {
+    "method": "exact two-sided binomial McNemar",
+    "max_only_correct": 147,
+    "weighted_only_correct": 193,
+    "discordant_count": 340,
+    "p_value": 0.014547602289261493,
+    "significance_level": 0.05,
+    "reject_equal_correctness_at_0_05": true,
+    "target": "paired correctness / accuracy, not Macro-F1"
+  },
+  "paired_bootstrap": {
+    "method": "IID paired row percentile bootstrap",
+    "replicates": 10000,
+    "seed": 42,
+    "sample_count": 8238,
+    "same_sample_indices_for_both_methods": true,
+    "label_order": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "observed_delta": 0.0055852122799343595,
+    "delta_definition": "Weighted Macro-F1 minus Max Confidence Macro-F1",
+    "ci_95": [
+      0.0012067822742064,
+      0.009866090200740222
+    ],
+    "standard_error": 0.0022169952442252826,
+    "confidence_level": 0.95,
+    "quantile_method": "linear",
+    "ci_excludes_zero": true,
+    "limitations": "Fixed trained models and pooled Test rows assumed IID. Does not include training randomness, dataset shift or dependence within source/user/thread."
+  }
+}

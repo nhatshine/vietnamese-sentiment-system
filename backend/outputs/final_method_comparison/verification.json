@@ -1,0 +1,39 @@
+{
+  "cache_integrity_verified": true,
+  "ordered_row_ids_verified": true,
+  "label_order_verified": true,
+  "test_sample_count": 8238,
+  "baseline_matches_step10": true,
+  "source_baselines_match": true,
+  "protected_files_unchanged": true,
+  "protected_file_count": 223,
+  "changed_files": [],
+  "no_retraining_or_finetuning": true,
+  "no_new_base_model_inference": true,
+  "alpha_fixed": 0.8,
+  "method_rules_unchanged": true,
+  "test_used_for_tuning": false,
+  "regression_tests": {
+    "command": "python -m unittest discover backend/tests",
+    "passed": 445,
+    "new_tests": 24,
+    "existing_tests": 421,
+    "failed": 0,
+    "log": "backend_regression.log",
+    "execution": "outside Windows sandbox for TestClient internal sockets"
+  },
+  "independent_output_audit": {
+    "passed": true,
+    "csv_rows": 8238,
+    "disagreement_rows": 377,
+    "probabilities_match_historical_cache_exactly": true,
+    "paired_inputs_and_order_verified": true,
+    "metrics_and_source_metrics_verified": true,
+    "ece_and_high_confidence_errors_verified": true,
+    "mcnemar_p_verified_with_binomial_sum": true
+  },
+  "protected_files_unchanged_after_regression": true,
+  "warnings": [
+    "Existing Starlette/httpx deprecation warning; deliberate negative API test logs. No regression failure."
+  ]
+}

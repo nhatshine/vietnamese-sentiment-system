@@ -1,0 +1,277 @@
+{
+  "input_text": "Sản phẩm này rất tốt.",
+  "sentence_count": 1,
+  "sentences": [
+    {
+      "sentence_index": 0,
+      "sentence": "Sản phẩm này rất tốt.",
+      "final_result": {
+        "method": "ensemble",
+        "label": "positive",
+        "confidence": 0.9936000322420734,
+        "probabilities": {
+          "negative": 0.0031674575331267036,
+          "neutral": 0.003232521109632636,
+          "positive": 0.9936000322420734
+        },
+        "weights": {
+          "svm": 0.8,
+          "transformer": 0.19999999999999996
+        }
+      },
+      "comparison": {
+        "svm": {
+          "method": "svm",
+          "label": "positive",
+          "confidence": 0.992394176016169,
+          "probabilities": {
+            "negative": 0.0037436996983154754,
+            "neutral": 0.003862124285515689,
+            "positive": 0.992394176016169
+          }
+        },
+        "transformer": {
+          "method": "transformer",
+          "label": "positive",
+          "confidence": 0.9984234571456909,
+          "probabilities": {
+            "negative": 0.000862488872371614,
+            "neutral": 0.0007141084061004221,
+            "positive": 0.9984234571456909
+          }
+        },
+        "ensemble": {
+          "method": "ensemble",
+          "label": "positive",
+          "confidence": 0.9936000322420734,
+          "probabilities": {
+            "negative": 0.0031674575331267036,
+            "neutral": 0.003232521109632636,
+            "positive": 0.9936000322420734
+          },
+          "weights": {
+            "svm": 0.8,
+            "transformer": 0.19999999999999996
+          }
+        }
+      }
+    }
+  ],
+  "document_results": {
+    "svm": {
+      "model": "svm",
+      "majority_vote": {
+        "aggregation_method": "majority_vote",
+        "model": "svm",
+        "label": "positive",
+        "confidence": 1.0,
+        "vote_counts": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 1
+        },
+        "vote_distribution": {
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        }
+      },
+      "mean_probability": {
+        "aggregation_method": "mean_probability",
+        "model": "svm",
+        "label": "positive",
+        "confidence": 0.992394176016169,
+        "probabilities": {
+          "negative": 0.0037436996983154754,
+          "neutral": 0.003862124285515689,
+          "positive": 0.992394176016169
+        }
+      },
+      "confidence_weighted": {
+        "aggregation_method": "confidence_weighted",
+        "model": "svm",
+        "label": "positive",
+        "confidence": 0.992394176016169,
+        "probabilities": {
+          "negative": 0.0037436996983154754,
+          "neutral": 0.003862124285515689,
+          "positive": 0.992394176016169
+        },
+        "sentence_weights": [
+          0.992394176016169
+        ]
+      }
+    },
+    "transformer": {
+      "model": "transformer",
+      "majority_vote": {
+        "aggregation_method": "majority_vote",
+        "model": "transformer",
+        "label": "positive",
+        "confidence": 1.0,
+        "vote_counts": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 1
+        },
+        "vote_distribution": {
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        }
+      },
+      "mean_probability": {
+        "aggregation_method": "mean_probability",
+        "model": "transformer",
+        "label": "positive",
+        "confidence": 0.9984234571456909,
+        "probabilities": {
+          "negative": 0.000862488872371614,
+          "neutral": 0.0007141084061004221,
+          "positive": 0.9984234571456909
+        }
+      },
+      "confidence_weighted": {
+        "aggregation_method": "confidence_weighted",
+        "model": "transformer",
+        "label": "positive",
+        "confidence": 0.9984234571456909,
+        "probabilities": {
+          "negative": 0.000862488872371614,
+          "neutral": 0.0007141084061004221,
+          "positive": 0.9984234571456909
+        },
+        "sentence_weights": [
+          0.9984234571456909
+        ]
+      }
+    },
+    "ensemble": {
+      "model": "ensemble",
+      "majority_vote": {
+        "aggregation_method": "majority_vote",
+        "model": "ensemble",
+        "label": "positive",
+        "confidence": 1.0,
+        "vote_counts": {
+          "negative": 0,
+          "neutral": 0,
+          "positive": 1
+        },
+        "vote_distribution": {
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        }
+      },
+      "mean_probability": {
+        "aggregation_method": "mean_probability",
+        "model": "ensemble",
+        "label": "positive",
+        "confidence": 0.9936000322420734,
+        "probabilities": {
+          "negative": 0.0031674575331267036,
+          "neutral": 0.003232521109632636,
+          "positive": 0.9936000322420734
+        }
+      },
+      "confidence_weighted": {
+        "aggregation_method": "confidence_weighted",
+        "model": "ensemble",
+        "label": "positive",
+        "confidence": 0.9936000322420734,
+        "probabilities": {
+          "negative": 0.0031674575331267036,
+          "neutral": 0.003232521109632636,
+          "positive": 0.9936000322420734
+        },
+        "sentence_weights": [
+          0.9936000322420734
+        ]
+      }
+    }
+  },
+  "final_result": {
+    "method": "ensemble",
+    "label": "positive",
+    "confidence": 0.9936000322420734,
+    "probabilities": {
+      "negative": 0.0031674575331267036,
+      "neutral": 0.003232521109632636,
+      "positive": 0.9936000322420734
+    },
+    "weights": {
+      "svm": 0.8,
+      "transformer": 0.19999999999999996
+    }
+  },
+  "selection_info": {
+    "selected_method": "ensemble",
+    "selected_alpha": 0.8,
+    "selected_by": "validation_macro_f1"
+  },
+  "aggregation_info": {
+    "method": "mean_probability",
+    "applied_to_final": false,
+    "validated_optimal": false,
+    "policy": "deployment_demo_default_not_document_benchmark"
+  },
+  "comparison": {
+    "svm": {
+      "method": "svm",
+      "label": "positive",
+      "confidence": 0.992394176016169,
+      "probabilities": {
+        "negative": 0.0037436996983154754,
+        "neutral": 0.003862124285515689,
+        "positive": 0.992394176016169
+      }
+    },
+    "transformer": {
+      "method": "transformer",
+      "label": "positive",
+      "confidence": 0.9984234571456909,
+      "probabilities": {
+        "negative": 0.000862488872371614,
+        "neutral": 0.0007141084061004221,
+        "positive": 0.9984234571456909
+      }
+    },
+    "ensemble": {
+      "method": "ensemble",
+      "label": "positive",
+      "confidence": 0.9936000322420734,
+      "probabilities": {
+        "negative": 0.0031674575331267036,
+        "neutral": 0.003232521109632636,
+        "positive": 0.9936000322420734
+      },
+      "weights": {
+        "svm": 0.8,
+        "transformer": 0.19999999999999996
+      }
+    }
+  },
+  "display_info": {
+    "default_view": "user",
+    "comparison_view_available": true
+  },
+  "research_info": {
+    "validation_macro_f1": {
+      "svm": 0.824149428830137,
+      "transformer": 0.7928055628236055,
+      "ensemble": 0.8255456672498939
+    },
+    "test_macro_f1": {
+      "svm": 0.8186049763074559,
+      "transformer": 0.7943039908501491,
+      "ensemble": 0.8221833733152949
+    },
+    "ensemble_weights": {
+      "svm": 0.8,
+      "transformer": 0.19999999999999996
+    },
+    "metric_scope": "dataset_not_input_confidence",
+    "frozen_selection_verified": true
+  }
+}

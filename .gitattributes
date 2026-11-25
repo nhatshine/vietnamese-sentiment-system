@@ -1,0 +1,2 @@
+# Preserve original artifact bytes: deployment verifies SHA-256 of source and models.
+* -text

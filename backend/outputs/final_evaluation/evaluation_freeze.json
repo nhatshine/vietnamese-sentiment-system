@@ -1,0 +1,58 @@
+{
+  "frozen_at_utc": "2026-10-29T04:34:33.192296+00:00",
+  "selected_before_test_inference": true,
+  "configuration": {
+    "selected_alpha": 0.8,
+    "selected_method": "ensemble",
+    "selection_dataset": "validation",
+    "validation_scores": {
+      "svm": 0.824149428830137,
+      "transformer": 0.7928055628236055,
+      "ensemble": 0.8255456672498939
+    },
+    "selection_sha256": "1a45bc2d723cf7a52501b5288c642d1f2c23398d06798a50dc6b581ecbc94289",
+    "label_mapping": {
+      "negative": 0,
+      "neutral": 1,
+      "positive": 2
+    },
+    "probability_columns": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "step9_fingerprints": {
+      "data/val.csv": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+      "data/validation_provenance.json": "4f0c4ad20f296880b5dfe61cb62f8967a32cc2607a3250a31dad6bf3dc4d9312",
+      "models/svm/svm_pipeline.joblib": "fc5a0bf009f4c58ecb41c32ee5098487155e4d5af9e210a35936d3738f39d2e1",
+      "src/real_svm.py": "67b20b83a6105483a06663f83aac7cdb0e2caf861199ee04ef9425d8d031c75e",
+      "src/real_transformer.py": "ee51599b0a31c7cc37ee23e37721c6120482637a0f8400677fb58ee37b7e50e5",
+      "src/preprocess.py": "20d8e57b3aa014f5c4cab733560971b5dea4aca813c0c7637dee7a0620fa5eae",
+      "src/ensemble.py": "d982b627bf21b77414e5c50e70238ce01a21f3a9a3670046171a37184dcfdb7a",
+      "src/alpha_tuning.py": "0b92d96a7034835597266926b8211c58ddfd43daf2ed7f4adcf4d9adf3a9503c",
+      "run_alpha_tuning.py": "dbf859c8ca491a6708e054c7bee19d7d3c2ffffd969fed71e42146b4994f4410",
+      "requirements.txt": "4e78357e3c9a356ba714fdfe725744b819a64a2a20ab2b5bce7ab238829c0572",
+      "models/transformer/best_transformer.pth": "60dd4f48f879b75a759161b9149235cae9f5c03ab4c5d08d4085074680f08118",
+      "models/transformer/model.py": "82e39d1cf46a033054746bac6383817664a73b87378ca477cace38b525329783",
+      "models/transformer/tokenizer.py": "bb9b483bb3d117c5c07411fc61de582d85bbfd19d4191e43bf5c24f5cf94891c",
+      "models/transformer/predict_transformer.py": "66b977a19e9f8d550ab509d5e3c91d93a6f16fa9c0d124c074f436af75979d3b",
+      "models/transformer/preprocess.py": "20d8e57b3aa014f5c4cab733560971b5dea4aca813c0c7637dee7a0620fa5eae",
+      "models/transformer/vocab.json": "fad68bf01d7364545b14ca660ddb71e5ddc664b12d56e673f13dbb677db0f7b6",
+      "models/transformer/config.json": "a54249741d71c9044269da65613004dd86ece7f8afcdb4f7ecce118caebfb1ac",
+      "models/transformer/label_map.json": "5f4371e0412c001f5da5fe251987a4647ba618e11a23e2cd837b6ab8abb21c4e"
+    },
+    "package_versions": {
+      "numpy": "2.3.5",
+      "scikit-learn": "1.9.1",
+      "torch": "2.14.0+cpu",
+      "joblib": "1.6.0",
+      "matplotlib": "3.11.1"
+    },
+    "python_version": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:12:50) [MSC v.1942 64 bit (AMD64)]",
+    "inference_device": "cpu",
+    "transformer_batch_size": 64,
+    "test_sha256": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de",
+    "sample_count": 8238,
+    "ordered_row_ids_sha256": "99281b4ac71394a64bc87461ef72ba42075b02a3774b3d483759632b8e7460df"
+  }
+}

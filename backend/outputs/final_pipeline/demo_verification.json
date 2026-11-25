@@ -1,0 +1,15 @@
+{
+  "analysis_requests": 6,
+  "svm_raw_inference_calls": 8,
+  "transformer_raw_inference_calls": 8,
+  "svm_preprocessing_calls": 8,
+  "transformer_preprocessing_calls": 8,
+  "svm_checkpoint_loads": 1,
+  "transformer_checkpoint_loads": 1,
+  "views": [
+    "user",
+    "research"
+  ],
+  "re_inference_for_view_toggle": false,
+  "predictors": "real (wraps used only for counting)"
+}

@@ -1,0 +1,14 @@
+{
+  "backend/outputs/final_method_comparison/disagreements.csv": "6e452bcae2453101b23023217bfe671de3e5b6aca68b4570f452de735e06abca",
+  "backend/outputs/final_method_comparison/metrics.csv": "05cc94dd125cb5584bbc0ed2786001fa53c23abd6e950351e8e479d05224f8e1",
+  "backend/outputs/final_method_comparison/per_class_metrics.csv": "0dde97716ec2eb2251c568b71620fce12733926b6a4f49736eaed7cc3f6bf817",
+  "backend/outputs/final_method_comparison/predictions.csv": "e7ce3525755b144bf37804595ba22526d41e83bd211c31810fdf6f5a7f4e8baa",
+  "backend/outputs/final_method_comparison/protected_files_before.json": "18d4311ae79b63f3574a293972ba7a37a2c88e86b5929d1172daa57511186754",
+  "backend/outputs/final_method_comparison/source_metrics.csv": "b80f6b8bc806e2ec94b41caf4d99f32e35f58166bbbefefccbb1357c82f918bb",
+  "backend/outputs/final_method_comparison/statistical_plan.json": "670790dec23d6f58444727062f4cd03e47edb11d13ef0ff045e637f55518a387",
+  "backend/outputs/final_method_comparison/statistical_tests.json": "f538f51bffbae616a5110c1554f7a203a25264e8c9b17f9dac01c440e560a36e",
+  "backend/outputs/final_method_comparison/summary.json": "da2703fe89ae51625be0a05128824be72ce164773349fc483639b42ed154c470",
+  "backend/outputs/final_method_comparison/verification.json": "5fde1210c75bb95a9c6418517cbecfc0201bd0ccb866a88dec33e7dca817245d",
+  "docs/FINAL_METHOD_COMPARISON.md": "6f751eb9a745012181a79d2265d893cda988d0e5c555846afd3f59cd7e9a0034",
+  "backend/outputs/final_method_comparison/backend_regression.log": "b06661bb4874f73d265bfa53dfbc52b6ccdcd8f563db2839f4497d43900b4408"
+}

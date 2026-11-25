@@ -1,0 +1,10 @@
+{
+  "selected_alpha": 0.7,
+  "selected_on": "Validation",
+  "selection_metric": "macro_f1",
+  "tied_alphas": [
+    0.7
+  ],
+  "tie_rule": "Exact ties: endpoints first, then ascending alpha",
+  "test_used_for_selection": false
+}

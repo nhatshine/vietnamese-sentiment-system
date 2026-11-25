@@ -1,0 +1,29 @@
+{
+  "best_epoch": 21,
+  "stop_reason": "early_stopping",
+  "data_sha256": {
+    "train": "972d5d1310c9a2147b2fbd22ab32a8638fc1d95f83e719171869a187237d8a7c",
+    "val": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "test": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de"
+  },
+  "labels": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "row_index": "0-based index in original split CSV",
+  "sample_id": "split:zero_padded_row_index",
+  "prediction_columns": [
+    "sample_id",
+    "row_index",
+    "text",
+    "true_label",
+    "pred_label",
+    "p_negative",
+    "p_neutral",
+    "p_positive",
+    "source"
+  ],
+  "source_only_baseline": "majority class by source fitted on train.csv only",
+  "note": "Only Validation selects checkpoints or ensemble weights; Test remains evaluation only"
+}

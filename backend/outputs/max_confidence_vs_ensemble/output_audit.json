@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "csv_rows": 8238,
+  "disagreement_rows": 362,
+  "probabilities_match_cache_exactly": true,
+  "independent_metrics_match": true,
+  "protected_files_unchanged_after_regression": true,
+  "protected_file_count": 153
+}

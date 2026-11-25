@@ -1,0 +1,12 @@
+{
+  "dataset": "validation",
+  "sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+  "preprocessed": true,
+  "svm_handoff_source": "C:\\Users\\Admin\\data+model_SVM\\data_final\\final\\val.csv",
+  "svm_handoff_validation_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+  "transformer_archive_source": "C:/Users/Admin/train_Transformer.zip!data/val.csv",
+  "transformer_archive_validation_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+  "transformer_training_config_validation_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+  "svm_training_dataset_hash_in_model_metadata": null,
+  "verification_note": "SVM handoff CSV and Transformer ZIP CSV are byte-identical; training config hash is available for Transformer. No SVM training-dataset SHA was provided in model metadata."
+}

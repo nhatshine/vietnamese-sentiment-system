@@ -1,0 +1,19 @@
+{
+  "docs/MAX_CONFIDENCE_VS_ENSEMBLE.md": "e89fb39f5794826d19485d8c1dbdcee95f22e8818f3e0d0a3784325acb911639",
+  "backend/outputs/max_confidence_vs_ensemble/summary.json": "d817567b95b775b31adeb6c169e68e6e5dce35aa376968f4b44e441054077603",
+  "backend/outputs/max_confidence_vs_ensemble/metrics.csv": "44f7a01e6afc1436e158e807d07d3d81b24a1972606fd41770c025cf93b04680",
+  "backend/outputs/max_confidence_vs_ensemble/per_class_metrics.csv": "95ffdd0fc791db3851c0a60649ba5d2dd7483280d9607e11459524ae000ad743",
+  "backend/outputs/max_confidence_vs_ensemble/source_metrics.csv": "beeb0fd8110e022b42d74e8ce4a0078e66c6f592b3e553d51d5e7e07d070b9c1",
+  "backend/outputs/max_confidence_vs_ensemble/predictions.csv": "a2f2c271b10b8d008d4afb32b59f04d697692877022237dff5ac331cbd684571",
+  "backend/outputs/max_confidence_vs_ensemble/disagreements.csv": "c3e9fd3d369f3138f3defa783f8561fafa8159802755d01f4492c3df76560d3f",
+  "backend/outputs/max_confidence_vs_ensemble/protected_files_before.json": "de42f5157eb4121d81850e34355d4b45e56fe35764160ec34d0f85ffc66b3f5a",
+  "backend/outputs/max_confidence_vs_ensemble/invariants.json": "87b347edd1dc372c82953fb5167ee8656ab3d5a34e6af212bfed8e332598e703",
+  "backend/outputs/max_confidence_vs_ensemble/verification.json": "a6fd1ba025627dc34f42dfd551b739210bea079a9b0c4e4dbc35940a7189b45e",
+  "backend/outputs/max_confidence_vs_ensemble/output_audit.json": "748ba9eba801d4e6b68c1a7a8eb3d5a3dd5a94aebbf7fc7ca03a0f84d6b8e165",
+  "backend/outputs/max_confidence_vs_ensemble/backend_regression.log": "cf6c867bbb063715f43806efd15e014864abeabe0381425a62696438897a884b",
+  "backend/outputs/max_confidence_vs_ensemble/frontend_regression.log": "5472eced5166b6c6b90e95822f0e086c0488352e04bca1ac4abd06a9bfeaa2df",
+  "backend/outputs/max_confidence_vs_ensemble/frontend_typecheck.log": "422af5ca52c94207682da80e91c7083c6f4c4cc1d1d0a26e676088674e2f9887",
+  "backend/outputs/max_confidence_vs_ensemble/frontend_e2e.log": "192d73730c0955133b3631dc3136ea2ff97b9b8218e056b249d8fd678f027617",
+  "backend/outputs/max_confidence_vs_ensemble/frontend_build.log": "cc58f253e934650317f88bf79cadc42ea6b9274680de0647ef1a5b5549464051",
+  "backend/outputs/max_confidence_vs_ensemble/e2e_integration.json": "2932f8200943f37ebc068e48f95df11fa93a1f9a08eda6cbf8f5bda19976921f"
+}

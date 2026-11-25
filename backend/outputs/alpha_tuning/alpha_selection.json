@@ -1,0 +1,130 @@
+{
+  "selection_dataset": "validation",
+  "primary_metric": "macro_f1",
+  "selected_alpha": 0.8,
+  "selected_validation_macro_f1": 0.8255456672498939,
+  "svm_validation_macro_f1": 0.824149428830137,
+  "transformer_validation_macro_f1": 0.7928055628236055,
+  "ensemble_validation_macro_f1": 0.8255456672498939,
+  "difference_vs_svm": 0.00139623841975689,
+  "difference_vs_transformer": 0.032740104426288386,
+  "alpha_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "tied_alphas": [
+    0.8
+  ],
+  "tie_break_rule": "Exact Macro-F1 ties: prefer endpoints; alpha=0 before alpha=1; otherwise ascending alpha.",
+  "sample_count": 8238,
+  "source_counts": {
+    "neu_esc": 3270,
+    "hieu_sa": 3372,
+    "vsfc": 1596
+  },
+  "label_counts": {
+    "1": 2785,
+    "2": 2678,
+    "0": 2775
+  },
+  "by_source": [
+    {
+      "source": "hieu_sa",
+      "n": 3372,
+      "svm_macro_f1": 0.7593111314819733,
+      "transformer_macro_f1": 0.7171512505335258,
+      "selected_alpha_macro_f1": 0.7621755116378508
+    },
+    {
+      "source": "neu_esc",
+      "n": 3270,
+      "svm_macro_f1": 0.7145481048586845,
+      "transformer_macro_f1": 0.6709943511416562,
+      "selected_alpha_macro_f1": 0.709399570770326
+    },
+    {
+      "source": "vsfc",
+      "n": 1596,
+      "svm_macro_f1": 0.6985792829601047,
+      "transformer_macro_f1": 0.6906570231332786,
+      "selected_alpha_macro_f1": 0.6969341739336374
+    }
+  ],
+  "dataset_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+  "dataset_provenance": {
+    "dataset": "validation",
+    "sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "preprocessed": true,
+    "svm_handoff_source": "C:\\Users\\Admin\\data+model_SVM\\data_final\\final\\val.csv",
+    "svm_handoff_validation_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "transformer_archive_source": "C:/Users/Admin/train_Transformer.zip!data/val.csv",
+    "transformer_archive_validation_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "transformer_training_config_validation_sha256": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "svm_training_dataset_hash_in_model_metadata": null,
+    "verification_note": "SVM handoff CSV and Transformer ZIP CSV are byte-identical; training config hash is available for Transformer. No SVM training-dataset SHA was provided in model metadata."
+  },
+  "fingerprints": {
+    "data/val.csv": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "data/validation_provenance.json": "4f0c4ad20f296880b5dfe61cb62f8967a32cc2607a3250a31dad6bf3dc4d9312",
+    "models/svm/svm_pipeline.joblib": "fc5a0bf009f4c58ecb41c32ee5098487155e4d5af9e210a35936d3738f39d2e1",
+    "src/real_svm.py": "67b20b83a6105483a06663f83aac7cdb0e2caf861199ee04ef9425d8d031c75e",
+    "src/real_transformer.py": "ee51599b0a31c7cc37ee23e37721c6120482637a0f8400677fb58ee37b7e50e5",
+    "src/preprocess.py": "20d8e57b3aa014f5c4cab733560971b5dea4aca813c0c7637dee7a0620fa5eae",
+    "src/ensemble.py": "d982b627bf21b77414e5c50e70238ce01a21f3a9a3670046171a37184dcfdb7a",
+    "src/alpha_tuning.py": "0b92d96a7034835597266926b8211c58ddfd43daf2ed7f4adcf4d9adf3a9503c",
+    "run_alpha_tuning.py": "dbf859c8ca491a6708e054c7bee19d7d3c2ffffd969fed71e42146b4994f4410",
+    "requirements.txt": "4e78357e3c9a356ba714fdfe725744b819a64a2a20ab2b5bce7ab238829c0572",
+    "models/transformer/best_transformer.pth": "60dd4f48f879b75a759161b9149235cae9f5c03ab4c5d08d4085074680f08118",
+    "models/transformer/model.py": "82e39d1cf46a033054746bac6383817664a73b87378ca477cace38b525329783",
+    "models/transformer/tokenizer.py": "bb9b483bb3d117c5c07411fc61de582d85bbfd19d4191e43bf5c24f5cf94891c",
+    "models/transformer/predict_transformer.py": "66b977a19e9f8d550ab509d5e3c91d93a6f16fa9c0d124c074f436af75979d3b",
+    "models/transformer/preprocess.py": "20d8e57b3aa014f5c4cab733560971b5dea4aca813c0c7637dee7a0620fa5eae",
+    "models/transformer/vocab.json": "fad68bf01d7364545b14ca660ddb71e5ddc664b12d56e673f13dbb677db0f7b6",
+    "models/transformer/config.json": "a54249741d71c9044269da65613004dd86ece7f8afcdb4f7ecce118caebfb1ac",
+    "models/transformer/label_map.json": "5f4371e0412c001f5da5fe251987a4647ba618e11a23e2cd837b6ab8abb21c4e"
+  },
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "probability_columns": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "svm_classes": [
+    0,
+    1,
+    2
+  ],
+  "transformer_logits_labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "preprocessing": "Already-cleaned Validation; no clean_text calls in either inference path.",
+  "inference_device": "cpu",
+  "transformer_batch_size": 64,
+  "python_version": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:12:50) [MSC v.1942 64 bit (AMD64)]",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.9.1",
+    "torch": "2.14.0+cpu",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.1"
+  },
+  "created_at_utc": "2026-10-29T02:40:35.885447+00:00",
+  "probability_cache_policy": "Saved for audit only; each run recomputes fresh predictions. No cache is read.",
+  "test_dataset_used": false,
+  "pipeline_default_alpha_changed": false
+}

@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-11-16T13:28:11.718973+00:00",
+  "step": "14.1",
+  "backend": {
+    "command": "python -m unittest discover backend/tests",
+    "passed": 421,
+    "new_tests_included": 25,
+    "failed": 0,
+    "log": "backend_regression.log"
+  },
+  "frontend": {
+    "command": "npm test",
+    "passed": 49,
+    "failed": 0,
+    "log": "frontend_regression.log"
+  },
+  "e2e": {
+    "command": "playwright test",
+    "passed": 1,
+    "failed": 0,
+    "real_backend": true,
+    "log": "frontend_e2e.log",
+    "original_ui_artifacts_restored": true
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exit_code": 0,
+    "log": "frontend_typecheck.log"
+  },
+  "build": {
+    "command": "npm run build",
+    "exit_code": 0,
+    "log": "frontend_build.log"
+  },
+  "experiment_code_sha256": {
+    "backend/run_max_confidence_comparison.py": "d37f427772d131cdc6448d5604bb586a0137e04d7fa217e7507aeb8a3dfadd57",
+    "backend/src/max_confidence.py": "a428249b0b887ccd8d4ea607ad707fe0fb7080ef22abd1a2d906bad395eac6f6"
+  },
+  "output_audit": {
+    "passed": true,
+    "csv_rows": 8238,
+    "disagreement_rows": 362,
+    "probabilities_match_cache_exactly": true,
+    "independent_metrics_match": true,
+    "protected_files_unchanged_after_regression": true,
+    "protected_file_count": 153
+  },
+  "environment_note": "First backend run inside sandbox stalled at Windows socketpair/asyncio during APIStartupTests.test_environment_settings. Diagnostic confirmed the location; full backend regression passed outside sandbox. Existing Starlette/httpx deprecation warning and expected negative-case service logs remain; no application/dependency changes."
+}

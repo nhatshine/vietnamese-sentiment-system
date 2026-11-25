@@ -1,0 +1,12 @@
+{
+  "dataset": "test",
+  "preprocessed": true,
+  "sha256": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de",
+  "svm_handoff_source": "C:\\Users\\Admin\\data+model_SVM\\data_final\\final\\test.csv",
+  "svm_handoff_test_sha256": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de",
+  "transformer_archive_source": "C:\\Users\\Admin\\train_Transformer.zip!data/test.csv",
+  "transformer_archive_test_sha256": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de",
+  "transformer_training_config_test_sha256": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de",
+  "svm_training_dataset_hash_in_model_metadata": null,
+  "verification_note": "Both handoff Test CSVs and project copy are byte-identical; Transformer training config records the same SHA. SVM metadata has no training-dataset SHA."
+}

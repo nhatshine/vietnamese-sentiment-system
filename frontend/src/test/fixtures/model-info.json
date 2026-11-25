@@ -1,0 +1,45 @@
+{
+  "selected_method": "ensemble",
+  "selected_alpha": 0.8,
+  "selection_source": "validation",
+  "selection_metric": "macro_f1",
+  "models": {
+    "svm": {
+      "name": "TF-IDF + SVM"
+    },
+    "transformer": {
+      "name": "Custom Transformer"
+    },
+    "ensemble": {
+      "name": "Weighted Soft Voting"
+    }
+  },
+  "validation_metrics": {
+    "svm": {
+      "macro_f1": 0.824149428830137
+    },
+    "transformer": {
+      "macro_f1": 0.7928055628236055
+    },
+    "ensemble": {
+      "macro_f1": 0.8255456672498939
+    }
+  },
+  "test_metrics": {
+    "svm": {
+      "macro_f1": 0.8186049763074559
+    },
+    "transformer": {
+      "macro_f1": 0.7943039908501491
+    },
+    "ensemble": {
+      "macro_f1": 0.8221833733152949
+    }
+  },
+  "metric_scope": "dataset_not_input_confidence",
+  "document_aggregation": {
+    "default_method": "mean_probability",
+    "validated_optimal": false
+  },
+  "device": "cpu"
+}

@@ -1,0 +1,25 @@
+{
+  "vocab_size": 9169,
+  "max_len": 128,
+  "d_model": 128,
+  "num_heads": 4,
+  "num_layers": 2,
+  "d_ff": 256,
+  "dropout": 0.2,
+  "num_classes": 3,
+  "min_freq": 2,
+  "max_vocab_size": 25000,
+  "lr": 0.0003,
+  "batch_size": 64,
+  "seed": 42,
+  "optimizer": "AdamW",
+  "loss": "CrossEntropyLoss",
+  "tokenizer": "Vietnamese whitespace/syllable tokenizer",
+  "preprocessing": "Shared team preprocess.py: html.unescape, NFC, lowercase, URLs/emails/mentions removed, emoticon->emopos/emoneg, xnum, repeated chars, slang, punctuation and whitespace; keep Vietnamese negations",
+  "dataset_sha256": {
+    "train": "972d5d1310c9a2147b2fbd22ab32a8638fc1d95f83e719171869a187237d8a7c",
+    "val": "e4f5ed62299115d4f726331c47482d3195bd006adcf58223ddb64718c50156c7",
+    "test": "60f9a200f025c8001d72e83280dc471f6103c8dae0d76e4a058577ed5a9625de"
+  },
+  "preprocess_sha256": "20d8e57b3aa014f5c4cab733560971b5dea4aca813c0c7637dee7a0620fa5eae"
+}

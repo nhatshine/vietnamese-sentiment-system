@@ -1,0 +1,30 @@
+# Dependencies and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+e2e-results*/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.tsbuildinfo
+.vscode/
+.idea/
+.DS_Store
+# Dataset texts stay with the original sources
+/data/
+backend/data/*.csv
+training/**/data/
+training/**/models/
+runs/
+# Local process records and backups
+backend/outputs/epoch21_deployment/runtime/
+backend/outputs/epoch21_deployment/backup/
+results/reproduced/

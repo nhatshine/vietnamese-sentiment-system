@@ -1,0 +1,8 @@
+# Real SVM: phiên bản đã xác nhận với artifact Phần 1 và môi trường inference.
+scikit-learn==1.9.1
+joblib==1.6.0
+numpy==2.3.5
+# Real Transformer: bản đã kiểm chứng là torch 2.14.0+cpu.
+torch==2.14.0
+# Validation alpha sweep: biểu đồ xuất file, không cần giao diện.
+matplotlib==3.11.1

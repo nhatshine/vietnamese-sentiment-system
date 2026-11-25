@@ -1,0 +1,10 @@
+{
+  "mcnemar": "exact two-sided binomial",
+  "significance_level": 0.05,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 42,
+  "bootstrap_confidence_level": 0.95,
+  "bootstrap_sampling": "paired IID row indices, pooled Test, percentile interval",
+  "primary_difference": "Weighted Macro-F1 minus Max Confidence Macro-F1",
+  "used_to_tune_methods": false
+}

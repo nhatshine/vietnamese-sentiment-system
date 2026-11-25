@@ -1,0 +1,4 @@
+﻿source,n_train,majority_label,majority_name,negative_train,neutral_train,positive_train
+hieu_sa,26974,2,positive,11524,3615,11835
+neu_esc,26156,1,neutral,4743,18128,3285
+vsfc,12769,2,positive,5940,537,6292

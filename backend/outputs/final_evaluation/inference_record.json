@@ -1,0 +1,12 @@
+{
+  "inference_completed_at_utc": "2026-10-29T04:34:43.237347+00:00",
+  "cache_sha256": "1d7587c7cf355d616cdfc2a76bf1a819b2a231ded13bc7b5a7994e348f50cc42",
+  "freeze_sha256": "7fbaa36a1611728d11f56674f02117a6e0cb99588c03a6613fd42f681d2a52b2",
+  "svm_cleaned_batch_calls": 1,
+  "transformer_cleaned_batch_calls": 1,
+  "device": "cpu",
+  "transformer_batch_size": 64,
+  "preprocessing_repeated": false,
+  "retrained": false,
+  "alpha_retuned": false
+}

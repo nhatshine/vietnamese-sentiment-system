@@ -1,0 +1,5 @@
+{
+  "backend/models/svm/svm_pipeline.joblib": "fc5a0bf009f4c58ecb41c32ee5098487155e4d5af9e210a35936d3738f39d2e1",
+  "backend/models/transformer/best_transformer.pth": "60dd4f48f879b75a759161b9149235cae9f5c03ab4c5d08d4085074680f08118",
+  "backend/models/transformer_epoch21/best_transformer.pth": "c620362b1d404aa4e8e15e9ff0b6263b671cc5d9e76dcb97af1b6717a461d768"
+}

@@ -1,0 +1,391 @@
+{
+  "input_text": "Camera rất đẹp. Nhưng pin quá yếu. Giao hàng rất nhanh!",
+  "sentence_count": 3,
+  "sentences": [
+    {
+      "sentence_index": 0,
+      "sentence": "Camera rất đẹp.",
+      "final_result": {
+        "method": "ensemble",
+        "label": "positive",
+        "confidence": 0.9867246318403196,
+        "probabilities": {
+          "negative": 0.0021958100248022443,
+          "neutral": 0.011079546586478185,
+          "positive": 0.9867246318403196
+        },
+        "weights": {
+          "svm": 0.8,
+          "transformer": 0.19999999999999996
+        }
+      },
+      "comparison": {
+        "svm": {
+          "method": "svm",
+          "label": "positive",
+          "confidence": 0.9838742972094952,
+          "probabilities": {
+            "negative": 0.0024718746265729973,
+            "neutral": 0.01365382816393168,
+            "positive": 0.9838742972094952
+          }
+        },
+        "transformer": {
+          "method": "transformer",
+          "label": "positive",
+          "confidence": 0.9981259703636169,
+          "probabilities": {
+            "negative": 0.001091551617719233,
+            "neutral": 0.0007824202766641974,
+            "positive": 0.9981259703636169
+          }
+        },
+        "ensemble": {
+          "method": "ensemble",
+          "label": "positive",
+          "confidence": 0.9867246318403196,
+          "probabilities": {
+            "negative": 0.0021958100248022443,
+            "neutral": 0.011079546586478185,
+            "positive": 0.9867246318403196
+          },
+          "weights": {
+            "svm": 0.8,
+            "transformer": 0.19999999999999996
+          }
+        }
+      }
+    },
+    {
+      "sentence_index": 1,
+      "sentence": "Nhưng pin quá yếu.",
+      "final_result": {
+        "method": "ensemble",
+        "label": "negative",
+        "confidence": 0.8500597221921479,
+        "probabilities": {
+          "negative": 0.8500597221921479,
+          "neutral": 0.0908564253683509,
+          "positive": 0.05908384945926909
+        },
+        "weights": {
+          "svm": 0.8,
+          "transformer": 0.19999999999999996
+        }
+      },
+      "comparison": {
+        "svm": {
+          "method": "svm",
+          "label": "negative",
+          "confidence": 0.8982069024531288,
+          "probabilities": {
+            "negative": 0.8982069024531288,
+            "neutral": 0.07319241563921441,
+            "positive": 0.02860068190765685
+          }
+        },
+        "transformer": {
+          "method": "transformer",
+          "label": "negative",
+          "confidence": 0.6574710011482239,
+          "probabilities": {
+            "negative": 0.6574710011482239,
+            "neutral": 0.16151246428489685,
+            "positive": 0.18101651966571808
+          }
+        },
+        "ensemble": {
+          "method": "ensemble",
+          "label": "negative",
+          "confidence": 0.8500597221921479,
+          "probabilities": {
+            "negative": 0.8500597221921479,
+            "neutral": 0.0908564253683509,
+            "positive": 0.05908384945926909
+          },
+          "weights": {
+            "svm": 0.8,
+            "transformer": 0.19999999999999996
+          }
+        }
+      }
+    },
+    {
+      "sentence_index": 2,
+      "sentence": "Giao hàng rất nhanh!",
+      "final_result": {
+        "method": "ensemble",
+        "label": "positive",
+        "confidence": 0.9714859373627409,
+        "probabilities": {
+          "negative": 0.02344788260062322,
+          "neutral": 0.005066185007570129,
+          "positive": 0.9714859373627409
+        },
+        "weights": {
+          "svm": 0.8,
+          "transformer": 0.19999999999999996
+        }
+      },
+      "comparison": {
+        "svm": {
+          "method": "svm",
+          "label": "positive",
+          "confidence": 0.9686192134095114,
+          "probabilities": {
+            "negative": 0.025288333921380152,
+            "neutral": 0.006092452669108525,
+            "positive": 0.9686192134095114
+          }
+        },
+        "transformer": {
+          "method": "transformer",
+          "label": "positive",
+          "confidence": 0.9829528331756592,
+          "probabilities": {
+            "negative": 0.016086077317595482,
+            "neutral": 0.0009611143614165485,
+            "positive": 0.9829528331756592
+          }
+        },
+        "ensemble": {
+          "method": "ensemble",
+          "label": "positive",
+          "confidence": 0.9714859373627409,
+          "probabilities": {
+            "negative": 0.02344788260062322,
+            "neutral": 0.005066185007570129,
+            "positive": 0.9714859373627409
+          },
+          "weights": {
+            "svm": 0.8,
+            "transformer": 0.19999999999999996
+          }
+        }
+      }
+    }
+  ],
+  "document_results": {
+    "svm": {
+      "model": "svm",
+      "majority_vote": {
+        "aggregation_method": "majority_vote",
+        "model": "svm",
+        "label": "positive",
+        "confidence": 0.6666666666666666,
+        "vote_counts": {
+          "negative": 1,
+          "neutral": 0,
+          "positive": 2
+        },
+        "vote_distribution": {
+          "negative": 0.3333333333333333,
+          "neutral": 0.0,
+          "positive": 0.6666666666666666
+        }
+      },
+      "mean_probability": {
+        "aggregation_method": "mean_probability",
+        "model": "svm",
+        "label": "positive",
+        "confidence": 0.6603647308422211,
+        "probabilities": {
+          "negative": 0.3086557036670273,
+          "neutral": 0.03097956549075154,
+          "positive": 0.6603647308422211
+        }
+      },
+      "confidence_weighted": {
+        "aggregation_method": "confidence_weighted",
+        "model": "svm",
+        "label": "positive",
+        "confidence": 0.6777005168066308,
+        "probabilities": {
+          "negative": 0.29245529127291076,
+          "neutral": 0.02984419192045838,
+          "positive": 0.6777005168066308
+        },
+        "sentence_weights": [
+          0.9838742972094952,
+          0.8982069024531288,
+          0.9686192134095114
+        ]
+      }
+    },
+    "transformer": {
+      "model": "transformer",
+      "majority_vote": {
+        "aggregation_method": "majority_vote",
+        "model": "transformer",
+        "label": "positive",
+        "confidence": 0.6666666666666666,
+        "vote_counts": {
+          "negative": 1,
+          "neutral": 0,
+          "positive": 2
+        },
+        "vote_distribution": {
+          "negative": 0.3333333333333333,
+          "neutral": 0.0,
+          "positive": 0.6666666666666666
+        }
+      },
+      "mean_probability": {
+        "aggregation_method": "mean_probability",
+        "model": "transformer",
+        "label": "positive",
+        "confidence": 0.7206984410683314,
+        "probabilities": {
+          "negative": 0.22488287669451287,
+          "neutral": 0.0544186663076592,
+          "positive": 0.7206984410683314
+        }
+      },
+      "confidence_weighted": {
+        "aggregation_method": "confidence_weighted",
+        "model": "transformer",
+        "label": "positive",
+        "confidence": 0.7888669880983638,
+        "probabilities": {
+          "negative": 0.17023346606705303,
+          "neutral": 0.040899529537789726,
+          "positive": 0.7888669880983638
+        },
+        "sentence_weights": [
+          0.9981259703636169,
+          0.6574710011482239,
+          0.9829528331756592
+        ]
+      }
+    },
+    "ensemble": {
+      "model": "ensemble",
+      "majority_vote": {
+        "aggregation_method": "majority_vote",
+        "model": "ensemble",
+        "label": "positive",
+        "confidence": 0.6666666666666666,
+        "vote_counts": {
+          "negative": 1,
+          "neutral": 0,
+          "positive": 2
+        },
+        "vote_distribution": {
+          "negative": 0.3333333333333333,
+          "neutral": 0.0,
+          "positive": 0.6666666666666666
+        }
+      },
+      "mean_probability": {
+        "aggregation_method": "mean_probability",
+        "model": "ensemble",
+        "label": "positive",
+        "confidence": 0.6724314728874431,
+        "probabilities": {
+          "negative": 0.29190113827252445,
+          "neutral": 0.03566738565413307,
+          "positive": 0.6724314728874431
+        }
+      },
+      "confidence_weighted": {
+        "aggregation_method": "confidence_weighted",
+        "model": "ensemble",
+        "label": "positive",
+        "confidence": 0.7006573520577336,
+        "probabilities": {
+          "negative": 0.2661949890043335,
+          "neutral": 0.03314765569776291,
+          "positive": 0.7006573520577336
+        },
+        "sentence_weights": [
+          0.9867246318403196,
+          0.8500597221921479,
+          0.9714859373627409
+        ]
+      }
+    }
+  },
+  "final_result": {
+    "method": "ensemble",
+    "aggregation_method": "mean_probability",
+    "model": "ensemble",
+    "label": "positive",
+    "confidence": 0.6724314728874431,
+    "probabilities": {
+      "negative": 0.29190113827252445,
+      "neutral": 0.03566738565413307,
+      "positive": 0.6724314728874431
+    }
+  },
+  "selection_info": {
+    "selected_method": "ensemble",
+    "selected_alpha": 0.8,
+    "selected_by": "validation_macro_f1"
+  },
+  "aggregation_info": {
+    "method": "mean_probability",
+    "applied_to_final": true,
+    "validated_optimal": false,
+    "policy": "deployment_demo_default_not_document_benchmark"
+  },
+  "comparison": {
+    "svm": {
+      "method": "svm",
+      "aggregation_method": "mean_probability",
+      "model": "svm",
+      "label": "positive",
+      "confidence": 0.6603647308422211,
+      "probabilities": {
+        "negative": 0.3086557036670273,
+        "neutral": 0.03097956549075154,
+        "positive": 0.6603647308422211
+      }
+    },
+    "transformer": {
+      "method": "transformer",
+      "aggregation_method": "mean_probability",
+      "model": "transformer",
+      "label": "positive",
+      "confidence": 0.7206984410683314,
+      "probabilities": {
+        "negative": 0.22488287669451287,
+        "neutral": 0.0544186663076592,
+        "positive": 0.7206984410683314
+      }
+    },
+    "ensemble": {
+      "method": "ensemble",
+      "aggregation_method": "mean_probability",
+      "model": "ensemble",
+      "label": "positive",
+      "confidence": 0.6724314728874431,
+      "probabilities": {
+        "negative": 0.29190113827252445,
+        "neutral": 0.03566738565413307,
+        "positive": 0.6724314728874431
+      }
+    }
+  },
+  "display_info": {
+    "default_view": "user",
+    "comparison_view_available": true
+  },
+  "research_info": {
+    "validation_macro_f1": {
+      "svm": 0.824149428830137,
+      "transformer": 0.7928055628236055,
+      "ensemble": 0.8255456672498939
+    },
+    "test_macro_f1": {
+      "svm": 0.8186049763074559,
+      "transformer": 0.7943039908501491,
+      "ensemble": 0.8221833733152949
+    },
+    "ensemble_weights": {
+      "svm": 0.8,
+      "transformer": 0.19999999999999996
+    },
+    "metric_scope": "dataset_not_input_confidence",
+    "frozen_selection_verified": true
+  }
+}
